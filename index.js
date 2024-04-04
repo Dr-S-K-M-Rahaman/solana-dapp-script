@@ -445,11 +445,6 @@ const contract = new sepoliaWeb3.eth.Contract(contractABI, contractAddress);
 
 let lastTransactions = [];
 
-const corsOptions = {
-	origin: 'http://localhost:3000', // Origin(s) to allow
-};
-
-app.use(cors(corsOptions));
 app.use(express.json());
 
 const convertToInteger = (number) => {
