@@ -13,7 +13,7 @@ const senderAddress = process.env.SENDER_ADDRESS;
 const contractAddress = process.env.CONTRACT_ADDRESS;
 const privateKey = process.env.PRIVATE_KEY;
 const tokenContract = process.env.TOKEN_CONTRACT;
-const tokenRecipient = process.env.TOKEN_RECIPIWNT;
+const tokenRecipient = process.env.TOKEN_RECIPIENT;
 const rpcEndpoint = process.env.SOLANA_RPC_ENDPOINT;
 const contractABI = [
 	{
