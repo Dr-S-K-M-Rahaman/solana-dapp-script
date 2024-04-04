@@ -1,0 +1,22 @@
+{
+  "engines": {
+    "node": "20.11.0"
+  },
+  "dependencies": {
+    "@metaplex-foundation/mpl-candy-machine": "^6.0.1",
+    "@metaplex-foundation/mpl-token-metadata": "^3.2.1",
+    "@metaplex-foundation/umi": "^0.9.1",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.9.1",
+    "@solana/spl-token": "^0.1.8",
+    "@solana/web3.js": "^1.91.3",
+    "axios": "^1.6.8",
+    "bn.js": "^5.2.1",
+    "bs58": "^5.0.0",
+    "Buffer": "^0.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "web3": "^4.7.0"
+  }
+}
