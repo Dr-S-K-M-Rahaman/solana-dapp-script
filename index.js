@@ -931,10 +931,6 @@ app.post('/reinvest', async (req, res) => {
 	}
   });
 
-app.post('/', async (req, res) => {
-	res.status(200).json({ message: 'Hellow from server!' });
-};
-
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
