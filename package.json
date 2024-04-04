@@ -1,7 +1,4 @@
 {
-  "engines": {
-    "node": "20.11.0"
-  },
   "dependencies": {
     "@metaplex-foundation/mpl-candy-machine": "^6.0.1",
     "@metaplex-foundation/mpl-token-metadata": "^3.2.1",
